@@ -1,0 +1,84 @@
+/* estilos.css */
+h1 {
+    color: #bb1414; /* Color del texto */
+    font-size: 32px; /* Tamaño de la fuente */
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    text-align: center; /* Alineación del texto al centro */
+    margin-bottom: 20px; /* Margen inferior de 20 píxeles */
+}
+
+
+
+/* estilos.css */
+img {
+    width: 400px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción original */
+    border-radius: 10px; /* Bordes redondeados */
+    border: 2px solid #ad1f1f; /* Borde de 2 píxeles sólido negro */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra */
+    margin: 20px; /* Margen exterior de 20 píxeles */
+    display: block; /* Convertir la imagen en un elemento de bloque */
+    margin: 0 auto; /* Establecer el margen izquierdo y derecho a "auto" para centrar horizontalmente */
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.queque {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.queque img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.queque h2 {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.queque p {
+    padding: 0 10px 10px;
+}
+
+footer {
+    margin-top: 20px;
+}
